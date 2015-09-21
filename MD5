@@ -1,0 +1,15 @@
+3c24aa28a9811fd8f66d7d5e8532f4ef *DESCRIPTION
+5652259a0a5c678f7d3272cc9e773576 *NAMESPACE
+3cc135bbaa9aff338057c87b76a2f39d *R/main.R
+bb3b995a0a4433c420cd67c352663d09 *build/vignette.rds
+dc1893ce5755dbc36b207fe6a7f8310a *inst/doc/oecd_vignette_main.R
+8815e968792fb7b9f27b778f82480098 *inst/doc/oecd_vignette_main.Rmd
+b5d574bd927a923821e657eaae60ce9d *inst/doc/oecd_vignette_main.pdf
+958f04618d2ef16fec28519cef06848f *man/browse_metadata.Rd
+a7ef25ead06976b05111ba35b30f384a *man/get_data_structure.Rd
+f888324e8fd24a69ccf3f35e78625c47 *man/get_dataset.Rd
+daeb7d9b6edfabee034c0591d8ced089 *man/get_datasets.Rd
+7c18c73d850f0c0e30461cac489eb529 *man/search_dataset.Rd
+00a00793540a8f60c61004031db15a85 *vignettes/figures/oecd.png
+ea0c66987e1abeffc1879ab72d89d7b7 *vignettes/figuresplot-1.pdf
+8815e968792fb7b9f27b778f82480098 *vignettes/oecd_vignette_main.Rmd
