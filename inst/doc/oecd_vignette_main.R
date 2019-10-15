@@ -59,8 +59,7 @@ qplot(data = df_plot, x = obsTime, y = obsValue, color = COUNTRY, geom = "line")
 Sys.sleep(5)
 
 ## ----example-------------------------------------------------------------
-df <- get_dataset("PATS_REGION",
-                  filter = "PCT_A.INVENTORS.BEL+BE10.TOTAL+BIOTECH", 
-                  pre_formatted = TRUE)
+df <- get_dataset("REGION_INNOVATION", 
+                  "1+2.BEL+BE1+BE2+BE3+BEZZ.PCT_BIOTECH.ALL+AVG.2013+2014+2015")
 head(df)
 
