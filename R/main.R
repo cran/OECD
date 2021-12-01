@@ -78,7 +78,7 @@ get_data_structure <- function(dataset) {
   
   url <- paste0("https://stats.oecd.org/restsdmx/sdmx.ashx/GetDataStructure/",
                 dataset)
-  data_structure <- rsdmx::readSDMX(url)
+  data_structure <- readsdmx::read_sdmx(url)
   
   # First data frame in returned list: data frame with full variables names
   variable_desc <- data.frame(data_structure@concepts)
@@ -210,7 +210,8 @@ get_dataset <- function(dataset, filter = NULL, start_time = NULL, end_time = NU
   class(url_list) <- "url"
   
   url <- httr::build_url(url_list)
-  df <- as.data.frame(rsdmx::readSDMX(url), ...)
+  
+  df <- readsdmx::read_sdmx((url), ...)
   class(df) <- c("tbl_df", "tbl", "data.frame")
   df
 }
